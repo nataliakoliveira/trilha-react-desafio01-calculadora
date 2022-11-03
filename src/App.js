@@ -11,7 +11,7 @@ const App = () => {
   const [firstNumber, setFirstNumber] = useState('0');
   const [operation, setOperation] = useState('');
 
-  const handleOnClear = () => {
+  const handleOnClear1 = () => {
     setCurrentNumber('0')
     setFirstNumber('0')
     setOperation('')
@@ -73,7 +73,7 @@ const App = () => {
         <Row>
           <Button label="x"/>
           <Button label="/"/>
-          <Button label="c" onClick={handleOnClear}/>
+          <Button label="c" onClick={handleOnClear1}/>
           <Button label="."/>
         </Row>
         <Row>
